@@ -1,19 +1,21 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { setActive } from '../store/actions/PlateMenu';
+
+
 
 export class PlateMenu extends Component {
-    constructor(props) {
-        super(props);
-        this.menu = [`Organism Plate`, `Antibiotic Plate`, `ISO Comment`, `General Comment`, `Antibiotic Dictionary`, `Parasitology Dictionary`, `Organism Dictionary`, `TNP`, `Tick Dictionary`, `Others Dictionary`, `Test Dictionary`, `Users`];
+    handleClick = (e) => {
+        this.props.setActive(e.target.id);
     }
 
     render() {
         return (
             <div className="plate-menu">
-                {this.menu.map((item, i) => {
+                {this.props.plateMenu.map((item, i) => {
                     return (
-                        <div key={i} className="plate-menu-item">
-                            {item}
+                        <div onClick={this.handleClick} key={i} id={i} className={item.isActive ? "plate-menu-item-active" : "plate-menu-item"}>
+                            {item.item}
                         </div>
                     )
                 })}
@@ -23,11 +25,11 @@ export class PlateMenu extends Component {
 }
 
 const mapStateToProps = (state) => ({
-    
+    plateMenu: state.plateMenu,
 })
 
-const mapDispatchToProps = {
-    
-}
+const mapDispatchToProps = dispatch => ({
+    setActive: (i) => dispatch(setActive(i))  
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(PlateMenu)

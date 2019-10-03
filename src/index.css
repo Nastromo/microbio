@@ -170,14 +170,15 @@ button {
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    width: 120px;
-    height: 35px;
+    width: 100%;
+    height: 30px;
     background: #1ab394;
-    border-radius: 4px;
-    border: none;
+    border-radius: 3px;
     cursor: pointer;
     color: #fff;
     box-sizing: border-box;
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .green-btn:hover {
@@ -654,4 +655,36 @@ p.logo-text:hover {
     margin: 4px 0;
     border-radius: 3px;
     cursor: pointer;
+}
+
+.pad15 {
+    padding: 15px;
+}
+
+.plate-title {
+    background: #cafff4;
+    font-weight: 700;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 25px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.plate-settings {
+    width: 100%;
+    border: 1px solid #dadada;
+}
+
+.mar15 {
+    margin: 15px;
+}
+
+.wid120 {
+    width: 120px;
 }
