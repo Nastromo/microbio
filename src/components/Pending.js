@@ -1,11 +1,19 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import TestsList from './TestsList';
+import PatientsList from './PatientsList';
+import PatientDetails from './PatientDetails';
+
+
+
 
 export class Pending extends Component {
     render() {
         return (
-            <div>
-                
+            <div className="flex back-ma">
+                <TestsList />
+                <PatientsList />
+                <PatientDetails />
             </div>
         )
     }
