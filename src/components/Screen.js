@@ -1,11 +1,19 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import ScreenPendingList from './ScreenPendingList';
+import ScreenData from './ScreenData';
+
+
+
+
 
 export class Screen extends Component {
     render() {
         return (
-            <div>
-
+            <div className="flex back-ma">
+                <ScreenPendingList />
+                <ScreenData />
+                
             </div>
         )
     }

@@ -734,6 +734,10 @@ p.logo-text:hover {
     font-weight: 700;
 }
 
+.bas50 {
+    flex-basis: 50%;
+}
+
 .req-pdf {
     font-size: 0.6rem;
     font-weight: 600;
@@ -785,4 +789,312 @@ p.logo-text:hover {
     padding: 0 10px;
     margin: 5px 0;
     width: 100%;
+}
+
+.scr-list {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin: 10px 20px 10px 0;
+    cursor: pointer;
+}
+
+.acty {
+    color: #12a588;
+}
+
+.marg-top15 {
+    margin: 15px 0 0 0;
+}
+
+.data-scrn {
+    padding: 15px;
+    border: 1px solid #dadada;
+    margin: 0 0 0 15px;
+    width: 100%;
+    flex-basis: 70%;
+}
+
+.bor-da {
+    margin: 10px 0 0 0;
+    border: 1px solid #dadada;
+}
+
+.ju-btw {
+    justify-content: space-between;
+}
+
+.titt-sec {
+    padding: 3px 10px;
+    background: #eeeeee;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.mar-riuy {
+    margin: 0 0 0 10px;
+}
+
+.poin-tt {
+    font-size: 0.8rem;
+}
+
+.ggbol {
+    font-weight: 700;
+}
+
+.margjj {
+    margin: 0 10px 0 0;
+}
+
+.drop-select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    color: #333;
+    font-size: 0.84rem;
+    font-weight: 600;
+    cursor: pointer;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: #919191;
+}
+
+.drop-select-chosen {
+    color: #333;
+    font-size: 0.84rem;
+    font-weight: 600;
+}
+
+.marg10 {
+    margin: 5px 10px 0 10px
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    box-shadow: 0 2px 8px 0 #00000012;
+    color: #333;
+    font-size: 0.84rem;
+    font-weight: 600;
+    cursor: pointer;
+    flex-basis: 50%;
+    z-index: 250;
+    top: 0;
+    left: 0;
+    background: #fff;
+    overflow: auto;
+}
+
+.drop-down-show {
+    display: block;
+    height: auto;
+    max-height: 250px;
+}
+
+.menu-item {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid #dadada;
+}
+
+.menu-item:hover {
+    background: #fafafa;
+}
+
+.not-chosen {
+    color: #919191;
+}
+
+.marg-rty {
+    margin: 0 10px 0 0;
+    box-sizing: border-box;
+}
+
+.gffd {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.check-box {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    border-radius: 3px;
+    border: 1px solid #dadada;
+    cursor: pointer;
+    margin: 3px 11px 3px 0;
+}
+
+.checked {
+    border: none;
+    background: #15ac8e url('./img/check.svg') no-repeat center;
+}
+
+.dergr {
+    padding: 3px 10px;
+    background: #e2e2e2;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    margin: 5px 0 5px 0;
+}
+
+.dsa {
+    margin: 0 10px 0 0;
+}
+
+.delete-sml {
+    border: none;
+    border-radius: 4px;
+    width: 27px;
+    height: 27px;
+    background: #FFC5A9 url('./img/del.svg') no-repeat center;
+    cursor: pointer;
+}
+
+.ter-row {
+    margin: 5px 15px 5px 15px;
+    padding: 0 0 0 10px;
+    display: flex;
+}
+
+.add-btn {
+    border: none;
+    border-radius: 4px;
+    width: 27px;
+    height: 27px;
+    background: #12a588;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropsh {
+    margin: 5px 15px 5px 15px;
+    padding: 0 0 0 8px;
+    display: flex;
+    align-items: center;
+}
+
+.ferty {
+    margin: 0 0 15px 0;
+    height: 120px;
+    overflow: auto;
+}
+
+.dergrdd {
+    padding: 3px 0 3px 10px;
+    background: #e2e2e2;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    margin: 5px 15px 5px 15px;
+}
+
+.q27 {
+    width: 27px;
+}
+
+.bas10 {
+    flex-basis: 10%;
+}
+
+.pads10 {
+    padding: 3px 10px;
+    align-items: center;
+}
+
+.tre {
+    height: 110px;
+    overflow: auto;
+    margin: 0 0 15px 0;
+}
+
+.rrr {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.bas17 {
+    flex-basis: 17%;
+}
+
+.grn-btn {
+    height: 27px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    border-radius: 3px;
+    width: 120px;
+    background: #15ac8e;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 15px 0;
+}
+
+.no-marg {
+    margin: 0;
+}
+
+.he30 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.gesdf {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.tytjgh {
+    padding: 3px 10px;
+    background: #e2e2e2;
+    font-weight: 700;
+    font-size: 0.8rem;
+    display: flex;
+    margin: 20px 15px 15px 15px;
+}
+
+.dfjsd {
+    margin: 3px 15px;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.fderr {
+    height: 120px;
+    overflow: auto;
+}
+
+.erfddd {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bas80 {
+    flex-basis: 80%;
+}
+
+.bas90 {
+    flex-basis: 90%;
 }

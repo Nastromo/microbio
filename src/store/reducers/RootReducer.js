@@ -5,10 +5,12 @@ import { dropdownStatus, dropdownOption } from './DropDown';
 import { searchQuery, searchLoading, searchResults, activeRow } from '../reducers/SearchInput';
 import { newDDStatus, newDDOption } from '../reducers/NewDropDown';
 import { plateMenu } from '../reducers/PlateMenu';
+import { isScreen } from '../reducers/ScrPend';
 
 
 
 const RootReducer = combineReducers({
+    isScreen,
     plateMenu,
     newDDStatus,
     newDDOption,
