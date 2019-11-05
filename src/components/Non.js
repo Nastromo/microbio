@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import PendResult from './PendResult';
+import NonCulturePendList from './NonCulturePendList';
+
+
 
 export class Non extends Component {
     render() {
         return (
-            <div>
-                
+            <div className="flex back-ma">
+                <NonCulturePendList />
+                <PendResult />
             </div>
         )
     }

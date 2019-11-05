@@ -773,6 +773,10 @@ p.logo-text:hover {
     flex-basis: 60%;
 }
 
+.marg-ri15 {
+    margin: 0 15px 0 0;
+}
+
 .scroll100 {
     height: 100px;
     overflow: auto;
@@ -1097,4 +1101,8 @@ p.logo-text:hover {
 
 .bas90 {
     flex-basis: 90%;
+}
+
+.bas70 {
+    flex-basis: 70%;
 }
