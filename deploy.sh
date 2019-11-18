@@ -14,15 +14,15 @@ cp service-worker.js prod
 
 tar czf app.tar.gz static/ asset-manifest.json favicon.ico index.html manifest.json service-worker.js
 
-sftp -i "devempr.pem" ubuntu@192.168.20.216 << 'ENDSSH'
+sftp -i "devempr.pem" ubuntu@192.168.20.222 << 'ENDSSH'
 put app.tar.gz
 exit
 ENDSSH
 
 rm app.tar.gz
 
-ssh -i "devempr.pem" ubuntu@192.168.20.216 << 'ENDSSH'
-rm -rf logistics/* logistics/.*
-tar xf app.tar.gz -C logistics
+ssh -i "devempr.pem" ubuntu@192.168.20.222 << 'ENDSSH'
+rm -rf mic/* mic/.*
+tar xf app.tar.gz -C mic
 rm app.tar.gz
 ENDSSH
